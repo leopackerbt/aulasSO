@@ -1,18 +1,43 @@
+  
 
-dll's = dynamic link library  bibliotecas de vinculo dinamico	 do so (windows)
+dll = biblioteca de vínculo dinâmico bibliotecas de vinculo dinamico (windows)
 so = software que gerencia todo o hardware
-kernel = nucleo/core do SO
+núcleo = núcleo / núcleo do SO
 comp kernel = detectar hardware, montar
 shell = interpretador de comandos
-kernel > shell > comandos
+kernel> shell> comandos
+drivers = 
 
 o kernel detecta os hardwares
-cada kernel é unico para um computador/SO
+cada kernel é único para um computador / SO
 
-windows separa o arquivo em varias partes no HD
+janelas separadas ou arquivos em várias partes no HD
 o linux armazena por bloco
 
-Windows Management Instrumentation (WMI)
+Instrumentação de Gerenciamento do Windows (WMI)
+
+Encontrou win32 = API
+win32 = api com objetos da classe, nao tem relaçao com arquivos do sistema 32 bits / api de referencia de programaçao
+
+O gerenciamento de recursos de hardware e software é uma tarefa
+extremamente importante atribuída ao Sistema Operacional
+
+Abstração de recursos: 
+
+systeminfo
+Get-WmiObject -Class Win32_OperatingSystem
+Get-WmiObject -Class Win32_Processor
+
+
+
+// retorna todas as APIs
+Get-CimClass -Namespace root/CIMV2 |
+Where-Object CimClassName -like Win32* |
+ Select-Object CimClassName 
+
+
+// saber a versão do windows
+Get-WmiObject -Class Win32_OperatingSystem | ForEach-Object -MemberName Caption
 
 
 
