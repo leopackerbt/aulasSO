@@ -1,0 +1,18 @@
+
+
+sistema de arq = forma como o SO armazena arquivos
+
+os comandos sao arquivo?
+    não, os comandos fazem parte de uma linguagem, que nao esta guardada em 1 pasta, e sim em tudo que ha no sistema 
+
+fat16 = 2 * 16 = 65k
+tamanho dos setores = 512KBytes
+512 * 65k = 33kk
+tamanho = 32 mb
+
+fat32 = 
+tamanho = 128mb a 2gb
+ainda perde 25% do disco
+
+linux entende bloco
+ntfs entende cluster
