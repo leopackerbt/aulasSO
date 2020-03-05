@@ -1,0 +1,33 @@
+
+
+windows se espalha pelo HD
+linux armazena por bloco
+
+
+partição cria uma tabela de alocação e essa tabela pega varios pedacinhos do HD (fisicamente nao serve para nada)
+nao existe re-gravação, toda vez que grava ele queima
+
+a partiçao q o gerson vai pedir (dual boot) é do cliente windows
+"me mostra o dual boot do cliente windows"
+
+R: nao fizemos dual boot pq o cliente windows exige licença
+R: este é inclusive um dos motivos pq n fizemos uma VM windows, pq a especificaçao tecnica do fabricante exige licença
+R: os SO ja dao suporte para virtualizaçao como HyperV evitando uso de Dual Boot
+
+dualboot ferra desempenho, nao tem interaçao entre SO, tem q desligar uma maquina p bootar a outra
+
+COMANDOS CMDLET
+Get-Date -DisplayHint Date 
+
+New-Item file.txt 
+
+
+
+
+SLAT
+tecnologia embutida no projeto do processador 64 bits
+
+
+docker é um container (confinamento da aplicação ou do SO)
+
+instalar Coreinfo
